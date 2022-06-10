@@ -83,7 +83,7 @@ FlechaR2Img = pygame.image.load("./Assets/Animacion/Botones/Flecha_Activo.png")
 display_width = 800
 display_height = 600
 gameDisplay = pygame.display.set_mode((display_width, display_height))
-pygame.display.set_caption("Healthy Life")
+pygame.display.set_caption("HealthyLife")
 
 #SettingClock
 clock = pygame.time.Clock()
