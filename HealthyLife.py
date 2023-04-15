@@ -55,7 +55,7 @@ fondoParque = pygame.image.load("./Assets/Image/Fondos/fondoParque.png")
 fondoPueblo = pygame.image.load("./Assets/Image/Fondos/fondoPueblo.png")
 fondoPlaya = pygame.image.load("./Assets/Image/Fondos/FondoPlaya.png")
 fondoTuto = pygame.image.load("./Assets/Image/Fondos/FondoTuto.jpeg")
-marcoPausa = pygame.image.load("./Assets/Animacion/Botones/MarcoPausa.png")
+
 selectLevelImg = pygame.image.load("./Assets/Image/Fondos/SelectLevel.png")
 #player
 blueImg = pygame.image.load("./Assets/Animacion/Personaje/Blue_Sprite.png")
@@ -183,7 +183,7 @@ def PauseAction(fondo):
             if event.type == pygame.QUIT:
                 quit()                    
         gameDisplay.blit(fondo,(0,0))
-        gameDisplay.blit(marcoPausa,(0,0))
+        
         gameDisplay.blit(text, (345, 130))
         #Returnmainmenu
         if 355 + 80 > mouse[0] > 355 and 180 + 60 > mouse[1] > 180:
